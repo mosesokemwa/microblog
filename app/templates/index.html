@@ -1,0 +1,17 @@
+<html>
+  <head>
+	<!-- if user is anonymous we provide a default header -->
+	{% if title %}
+	<title>{{ title }} - microblog</title>
+	{% else %}
+	<title>Welcome to microblog</title>
+	{% endif %}
+  </head>
+  <body>
+    <h1>Hi, {{ user.nickname }}!</h1>
+    {% for post in posts %}
+    <div><p>{{ post.author.nickname }} says: <b>{{ post.body }}</b></p></div>
+    {% endfor %}
+      <h1>Hello, {{ user.nickname }}!</h1>
+  </body>
+</html>
