@@ -12,19 +12,19 @@ def index():
             'body': 'Beautiful day in Portland!'
         },
         {
-            'author': {'nickname': 'John'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'nickname': 'John'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'nickname': 'John'},
-            'body': 'Beautiful day in Portland!'
+            'author': {'nickname': 'Mike'},
+            'body': 'Boondocks is good!'
         },
         {
             'author': {'nickname': 'Susan'},
+            'body': 'Breathing is natural!'
+        },
+        {
+            'author': {'nickname': 'James'},
+            'body': 'Sleep is for the Meek!'
+        },
+        {
+            'author': {'nickname': 'Sarah'},
             'body': 'The Avengers movie was so cool!'
         }
     ]
