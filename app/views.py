@@ -4,6 +4,7 @@ from app import app
 
 @app.route('/')
 @app.route('/index')
+@app.route('/nnn')
 def index():
     user = {'nickname': 'Miguel'}  # fake user
     posts = [  # fake array of posts
@@ -32,3 +33,7 @@ def index():
                            title='Home',
                            user=user,
                            posts=posts)
+
+
+def nnn():
+    return render_template('nnn.html')
