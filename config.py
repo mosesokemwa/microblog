@@ -1,0 +1,2 @@
+WTF_CSRF_ENABLED = True
+SECRET_KEY = 'hkmkc44-$%4454-77413lsmme-00'
