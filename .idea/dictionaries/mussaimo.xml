@@ -2,6 +2,7 @@
   <dictionary name="mussaimo">
     <words>
       <w>microblog</w>
+      <w>sqlalchemy</w>
     </words>
   </dictionary>
 </component>
