@@ -6,6 +6,7 @@
       <w>myopenid</w>
       <w>sqlalchemy</w>
       <w>sqlite</w>
+      <w>tablename</w>
     </words>
   </dictionary>
 </component>
