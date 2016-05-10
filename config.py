@@ -1,3 +1,5 @@
+import os
+
 WTF_CSRF_ENABLED = True
 SECRET_KEY = 'hkmkc44-$%4454-77413lsmme-00'
 
@@ -10,7 +12,6 @@ OPENID_PROVIDERS = [
     {'name': 'MyOpenID', 'url': 'https://www.myopenid.com'}]
 
 
-import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 

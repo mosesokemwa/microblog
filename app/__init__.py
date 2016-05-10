@@ -1,5 +1,4 @@
 from flask import Flask
-# imported sqlalchemy
 from flask.ext.sqlalchemy import SQLAlchemy
 import os
 from flask.ext.login import LoginManager
@@ -10,9 +9,12 @@ from config import basedir
 app = Flask(__name__)
 app.config.from_object('config')
 db = SQLAlchemy(app)
-from app import views, models
-
 
 lm = LoginManager()
 lm.init_app(app)
 oid = OpenID(app, os.path.join(basedir, 'tmp'))
+
+lm = LoginManager()
+lm.init_app(app)
+lm.login_view = 'login'
+from app import views, models
